@@ -14,11 +14,10 @@ const TransitionButton = styled.button`
   }
 `;
 
-const Transition = () => {
+export default function Transition() {
   return (
     <Wrapper>
       <TransitionButton>마우스를 올리면 길어져요</TransitionButton>
     </Wrapper>
   );
-};
-export default Transition;
+}
